@@ -35,3 +35,8 @@ function showGitCommands() {
     "git branch\n" +
     "→ Shows all branches in the repo.";
 }
+
+function showImage() {
+    document.getElementById("img").innerHTML =
+    "<img src='pic.jpg' width='200'>";
+}

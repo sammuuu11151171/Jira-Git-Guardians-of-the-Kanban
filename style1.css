@@ -32,6 +32,8 @@ button {
     cursor: pointer;
     font-size: 14px;
 }
+img{
+    margin-top: 20px;
 
 button:hover {
     background: #1d4ed8;
