@@ -14,6 +14,7 @@ function showCustomMessage() {
         document.getElementById("msg").innerText =
             "Hello " + name + "! Welcome to Guardians of the Sprint 🚀";
     }
+}
 function showGuide() {
   document.getElementById("msg").innerText =
     "Assignment Guide:\n\n" +
@@ -51,3 +52,8 @@ function showImage() {
     document.getElementById("img").innerHTML =
     "<img src='pic.jpg' width='200'>";
 }
+
+setInterval(() => {
+    let time = new Date().toLocaleTimeString();
+    document.getElementById("clock").innerText = "Current Time: " + time;
+}, 1000);
